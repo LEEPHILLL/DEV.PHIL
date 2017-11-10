@@ -1,0 +1,14 @@
+body{
+    background: url(../img/33.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Vollkorn SC', serif;
+}
+.rowheight{
+        height 500px
+}
+.footer{
+    background-color:#fff;
+    position:fixed;
+    bottom:0;
+}
