@@ -54,6 +54,6 @@ for(var i=0 ; i < numbers.length ; i++){
                 console.log("-----"+numbers[i]+"------")
              }
 }
-
+// 7에서 표시 / 나오지 않는 숫자 --로 나옴
 
 
