@@ -1,0 +1,24 @@
+.btn1_div {
+        height: 150px ;
+        background-color:red ;
+        text-align: center;
+}
+.a_css {
+        color:blue ;
+        text-decoration: underline ;
+        cursor : pointer ;
+        font-size : large ;
+}
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    margin-top : 50px;
+    background-color : green ;
+    text-align: right ;
+    font-size : 20px ;
+
+}
+.input {
+    font-size: 20px;
+}
