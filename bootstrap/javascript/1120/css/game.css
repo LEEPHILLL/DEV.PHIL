@@ -54,7 +54,7 @@ body{
     margin-bottom: 10px;
     position: relative;
 }
-
+/*active 있는 플레이어 자식*/
 .active .player-name {
     font-weight: 300 ;
 }
@@ -95,7 +95,7 @@ body{
 .player-current-score {
     font-size:30px;
 }
-
+/*left 50 , transform -50 -- 가운데 위치 시키는 */
 button {
     position: absolute;
     width:200px;
@@ -111,7 +111,7 @@ button {
     font-weight:300;
     transition: background-color 0.3s, color 0.3s ;
 }
-
+/* 호버 는 클릭하면 움직이는거 , 포커스는 아무거도 안변하는거*/
 button:hover { font-weight: 600;}
 button:hover i { margin-right: 20px;}
 button:focus {outline: none ;}
@@ -154,3 +154,11 @@ button:focus {outline: none ;}
     height:100px;
     box-shadow: 0px 10px 60px rgba(0,0,0,0.10);
 }
+
+.winner {
+    background-color : #f7f7f7 ;
+}
+.winner .player-name {
+    font-weight : 300 ;
+    color: #EB4D4D ;
+    }
