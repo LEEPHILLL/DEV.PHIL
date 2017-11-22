@@ -14,8 +14,11 @@
             가입신청서에 *란은 필수입니다.
         </div>
         <div class="div_height">
-            <input type="text" name="name" id="name" size=15 placeholder="이름" >
+            <input type="text" name="name" id="name" size=15 placeholder="이름" >*
             <p id="name_error" class="p_error"></p>
+        </div>
+        <div class="div_height">
+            <input type="text" name="email" id="email" placeholder="이메일">*
         </div>
         <div class="div_height">
             <input type="text" name="id" id="id" placeholder="아이디">*
@@ -26,7 +29,25 @@
         <div class="div_height">
             <input type="password" name="password2" id="password2" placeholder="비밀번호 확인">*
         </div>
+        <div class="div_height">
+            <select name ="job">
+                <option value="" selected >--직업--</option>
+                <option value="worker">worker</option>
+                <option value="offical">official</option>
+                <option value="student">student</option>
+                <option value="solider">solider</option>
+            </select>
+        </div>
+        <div class="div_height">
+                <input type="radio" name="gender" value="man">남자
+                <input type="radio" name="gender" value="woman">여자
+        </div>
+        <div class="div_height">
+                <input type="checkbox" name="hobby" value="reading">독서
+                <input type="checkbox" name="hobby" value="hiking">하이킹
+                <input type="checkbox" name="hobby" value="fishing">낚시
 
+        </div>
         <div class="div_height">
             <input type="submit" value="회원가입">
             <input type="reset" value="다시스기">
