@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz74</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+     $(document).ready(function() {
+         var $el = $('div')
+           var $list = $el.find('ul li');
+           $list.each(function (index) {
+               var color = ['pink', 'blue', 'yellow', 'red', 'green']
+               $(this).css('background',color[index]);
+           })
+     });
+    </script>
+</head>
+<body>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div></div>
+</body>
+</html>

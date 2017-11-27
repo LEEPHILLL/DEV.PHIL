@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="jquery-3.2.1.min.js"></script>
-
+    <script>
+        $(document).ready(function(){
+        $('ul li').each(function(index) {
+            var $target = $this ;
+            $target.css('background','pink')
+        });
+        });
+    </script>
 </head>
 <body>
-    <h1>hellowow</h1>
-
-    <script>
-            $('h1').css('background','pink');
-    </script>
+    <h1>hello wwww</h1>
+    <ul>
+        <li>hello</li>
+        <li class="select">helloaaaa</li>
+        <li>helloaaaa</li>
+    </ul>
 </body>
 </html>
